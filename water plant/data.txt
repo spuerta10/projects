@@ -1,0 +1,10 @@
+Los quimicos usados en la planta para el tratamiento del agua
+{
+    page : url_sulfato = 'https://listado.mercadolibre.com.co/sulfato-de-aluminio#D[A:sulfato%20de%20aluminio]'
+    page : url_ piedra = 'https://listado.mercadolibre.com.co/piedra-caliza#D[A:piedra%20caliza]'
+    page : url_cloro = 'https://listado.mercadolibre.com.co/chlorine#D[A:chlorine]'
+    sulfato de aluminio : precio = //span[@class = "price-tag-fraction"]/text()
+    piedra caliza : precio = //span[@class = "price-tag-fraction" and contains(.,197.000)]/text()
+    cloro : precio = //span[@class = "price-tag-fraction" and contains(.,33.500)]/text()
+}
+
