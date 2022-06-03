@@ -1,7 +1,7 @@
 <p align = "center">
 <font size ="4.7px"><a href = "https://github.com/spuerta10/projects/edit/main/recursos/traducciones/plantaAgua.md">Español</a>
                                                                               |
-<a href = "english version link">English</a></font> 
+<a href = "https://github.com/spuerta10/projects/edit/main/water%20plant/waterplant.md">English</a></font> 
 </p>
 
 # The context
@@ -28,17 +28,17 @@ For this project [UbiDots](https://ubidots.com/) was used for displaying the dat
 <br></br>
 
 ## The solution
-The module [chemicals.py]() helps solving requisite number two (2); this module calculates an estimate of the chemicals real price applying web scraping techniques
+The module [chemicals.py](https://github.com/spuerta10/projects/blob/main/water%20plant/code/chemicals.py) helps solving requisite number two (2); this module calculates an estimate of the chemicals real price applying web scraping techniques
 getting the actual price from [Mercado Libre's](https://www.mercadolibre.com.co/) page.
 
 To solve objective one (1) an spected chemicals expense was calculated based on yesterday's chemical expense then from the real chemical capacity was substracted the expected 
-expenses, in case there were no more chemicals left a notification was thrown. The module [system.py](https://github.com/spuerta10/projects/blob/main/water%20plant/sistem.py)
+expenses, in case there were no more chemicals left a notification was thrown. The module [system.py](https://github.com/spuerta10/projects/blob/main/water%20plant/code/system.py)
 solves objectives one (1), two (2), three (3) and four (4) due to this model is responsible for managing interactions between modules. 
 
-[ploting.py](https://github.com/spuerta10/projects/blob/main/water%20plant/ploting.py) is responsible of ploting the graphs that will be present in the following reports,
+[ploting.py](https://github.com/spuerta10/projects/blob/main/water%20plant/code/ploting.py) is responsible of ploting the graphs that will be present in the following reports,
 solving objective number two (2).
 
-[db.py](https://github.com/spuerta10/projects/blob/main/water%20plant/db.py) is the module responsible for establishing a connection with the selected data base for srtoring the colected data.
+[db.py](https://github.com/spuerta10/projects/blob/main/water%20plant/code/db.py) is the module responsible for establishing a connection with the selected data base for srtoring the colected data.
 <br></br>
 
 ## The results
