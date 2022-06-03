@@ -29,14 +29,14 @@ el maximo, minimo y promedio nivel de almacenamiento del tanque, mediante grafic
 <br></br>
 
 ## La solucion
-El modulo [chemicales.py](https://github.com/spuerta10/projects/blob/main/water%20plant/chemicals.py) da ayuda a la solucion del objetivo dos (2); este modulo se encarga de calcular una estimacion del precio real de los quimicos usados en la planta
+El modulo [chemicales.py](https://github.com/spuerta10/projects/blob/main/water%20plant/code/chemicals.py) da ayuda a la solucion del objetivo dos (2); este modulo se encarga de calcular una estimacion del precio real de los quimicos usados en la planta
 haciendo uso de tecnicas de web scraping, extrayendo el precio real de los quimicos de la pagina [Mercado Libre](https://www.mercadolibre.com.co/).  
 
-Para dar solucion al objetivo uno (1) se calculaba cual era el gasto de quimicos esperado basado en el gasto de quimicos del dia anterior, se le restaba este esperado a la cantidad real, dado el caso de que no quedaran mas quimicos se lanzaba la alerta. El modulo [system.py](https://github.com/spuerta10/projects/blob/main/water%20plant/sistem.py) le da solucion a los objetivos  uno (1), dos (2), tres (3) y cuatro (4) ya que este es el modulo principal del programa encargado de orquestar las interacciones entre modulos.
+Para dar solucion al objetivo uno (1) se calculaba cual era el gasto de quimicos esperado basado en el gasto de quimicos del dia anterior, se le restaba este esperado a la cantidad real, dado el caso de que no quedaran mas quimicos se lanzaba la alerta. El modulo [system.py](https://github.com/spuerta10/projects/blob/main/water%20plant/code/system.py) le da solucion a los objetivos  uno (1), dos (2), tres (3) y cuatro (4) ya que este es el modulo principal del programa encargado de orquestar las interacciones entre modulos.
 
-Por su parte el modulo [ploting.py](https://github.com/spuerta10/projects/blob/main/water%20plant/ploting.py) se encarga de preparar las graficas que seran presentadas en los reportes, ayudando a la solucion del objetivo dos (2).
+Por su parte el modulo [ploting.py](https://github.com/spuerta10/projects/blob/main/water%20plant/code/ploting.py) se encarga de preparar las graficas que seran presentadas en los reportes, ayudando a la solucion del objetivo dos (2).
 
-[db.py](https://github.com/spuerta10/projects/blob/main/water%20plant/db.py) es el modulo responsable de establecer una conexion con la base de datos para
+[db.py](https://github.com/spuerta10/projects/blob/main/water%20plant/code/db.py) es el modulo responsable de establecer una conexion con la base de datos para
 el posterior alamacenamiento de los mismos. 
 <br></br>
 
