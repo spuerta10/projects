@@ -1,7 +1,7 @@
 <p align = "center">
 <font size ="4.7px"><a href = "https://github.com/spuerta10/projects/blob/main/recursos/traducciones/plantaAgua.md">Español</a>
                                                                               |
-<a href = "https://github.com/spuerta10/projects/edit/main/water%20plant/waterplant.md">English</a></font> 
+<a href = "https://github.com/spuerta10/projects/blob/main/water%20plant/waterplant.md">English</a></font> 
 </p>
 
 # Contextualizacion
