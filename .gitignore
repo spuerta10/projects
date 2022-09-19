@@ -1,0 +1,3 @@
+venv/
+*.pptx
+__pycache__/

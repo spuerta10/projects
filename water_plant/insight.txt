@@ -1,0 +1,36 @@
+Empresa tratamiento de aguas 
+{Guarde localmente la informacion diaria recolectada y envie informacion a servidores de IoT}
+La plataforma tendra info de 5 sensores distintos
+{Nivel del agua en los tanques, Particulas en suspension (turbidez), cantidad de quimicos disponibles}
+
+Reportes diarios
+a.{Cantidad de quimicos usados y costo}
+b.{Maximo, minimo, promedio de uso de tanques de agua}
+c.{Maximo, minimo, promedio de turbidez del agua}
+{Alerta de poco material quimico disponible}
+{Graficas de a, b, c en los anteriores 3 dias}
+
+Importante!
+Por cada litro de agua se usa
+{aluminum sulfate = 25 mg}
+{limestone = 15 mg}
+{cloro = 0.05 ml}
+
+capacidad maxima de tanque = 200.000 litros
+
+
+Preguntas
+The value of turbidity should be changed every “10 minutes”//turbiez cambia cada 10 min de simulacion siempre y cuando el tanque se este llenando
+When the facility is on limit mode (tanks’ capacity goes under 15%) the demand 
+should change randomly between the minimum and maximum stablished limits.
+Los 15 dias durarian 8 minutos?
+Si o no tenemos que mandar informacion a plataforma IoT //Si
+¿Base de datos? ¿SQL o Excel? //Lo que quiera
+Cada cuanto tiempo genero el numero de extraccion de agua del tanque? //Cada segundo
+Siempre se estara extrayendo agua del tanque? //Si cada segundo
+//Como mido la turbidez del agua entrante si el tanque no esta en necesidad de llenarse?
+{Ejemplo: Me dicen que el tanque empieza en 100% de capacidad, ahí no tendria que medir la turbidez del agua hasta que el tanque necesite llenarse}
+
+Resumen:
+La empresa lo que hace es que gasta un numero de agua de los tanques, si los tanques bajan de cierto nivel empiezan
+a llenar los tanques otra vez gastando quimicos para purificar el agua
