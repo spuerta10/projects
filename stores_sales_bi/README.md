@@ -1,7 +1,7 @@
 <p align = "center">
-<font size ="4.7px"><a href = "https://github.com/spuerta10/database/blob/projects/nombre_proyecto/recursos/traducciones/nombre_curso_espaniol.md">Español</a>
+<font size ="4.7px"><a href = "https://github.com/spuerta10/projects/blob/main/stores_sales_bi/recursos/traducciones/nombre_curso_espaniol.md">Español</a>
                                                                               |
-<a href = "https://github.com/spuerta10/database/blob/projects/nombre_proyecto/README.md">English</a></font> 
+<a href = "https://github.com/spuerta10/projects/blob/main/stores_sales_bi/README.md">English</a></font> 
 </p>
 
 # The Context
