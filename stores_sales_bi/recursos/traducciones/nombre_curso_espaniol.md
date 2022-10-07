@@ -5,7 +5,7 @@
 </p>
 
 # Contextualizacion
-El presente proyecto es un entregable para la materia introduccion a la ingenieria en ciencias de datos de la carrera ingenieria en ciencias de datos. El proposito del mismo es el de emular el flujo de trabajo que sigue un analista de datos, concretamente, un analista de datos de inteligencia empresarial (bussiness intelligence data analyst) a la hora de elaborar un tablero de BI.  
+El presente proyecto es un entregable para la materia Introduccion a la Ingenieria en Ciencias de Datos de la carrera Ingenieria en Ciencias de Datos. El proposito del mismo es el de emular el flujo de trabajo que sigue un analista de datos, concretamente, un analista de datos de inteligencia empresarial (bussiness intelligence data analyst) a la hora de elaborar un tablero de BI.  
 
 Los datos adquiridos para este proyecto son open source, los siguientes son enlaces para acceder a estos [Super Store Sales Dataset](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting), [Sample Sales Data](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data) y [sales_data_samples(1).csv](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjnkdeF9cn6AhVsmIQIHYtvCSMQFnoECAgQAQ&url=https%3A%2F%2Fintersectjobsims.files.wordpress.com%2F2018%2F06%2Fsales_data_sample-1.xlsx&usg=AOvVaw14wOsod1qZzRAUjfwWpkeL)
 
@@ -13,17 +13,50 @@ El proyecto supone que los datos recopilados pertenecen a una compañia de retai
 <br></br>
 
 ## El Problema
-El problema se hace evidente cuando en la compañia se plantean diferentes preguntas sobre sus datos y se tiene que invertir gran cantidad de tiempo en hallarles una respuesta ya sea por medio de Excel o por medio de SQL, o en el peor de los casos, no se sabe como dar una respuesta. 
+El problema se hace evidente cuando en la compañia se plantean diferentes preguntas acerca de sus datos y se tiene que invertir gran cantidad de tiempo en hallarles una respuesta, o, en el peor de los casos, no se saben responder. 
+
 Ademas, la compañia posee distintas fuentes de datos las cuales poseen formatos y estructuras diferentes complicando su integracion y visualizacion.
 
 ![](https://github.com/spuerta10/projects/blob/main/stores_sales_bi/recursos/imagenes_y_videos/etl_databases/extract_databases.png)
 
-*Figura 1*. Origenes de datos que posee la compañia
+*Figura 1*. Fuentes de datos que posee la compañia
+<br></br>
+Los lineamientos propuestos para la elaboracion de este proyecto se pueden encontrar en el siguiente enlace: []()
 <br></br>
 
 ## La solucion
-Especificar el enfoque tomado para la solucion del problema. Si la solucion involucraba codigo es una buena idea explicar los modulos implementados, y de que manera estos contribuian a la solucion del problema.
-<br></br>
+Antes de pensar en una solucion particular para el problema debemos de entender los datos, las tablas uno (1) a tres (3) decriben con mayor profundidad los datos hallados en las diferentes fuentes de datos.
+
+*Tabla 1*. Diccionario de datos de la fuente ukStore
+| Nombre | Nombre de columna | Definicion | Tipo de dato |
+|--------|-------------------|------------|--------------|
+|Numero de factura |Invoice No |Identificador unico de factura generada al momento de la venta. |BigInt 
+|Numero de inventario |StockCode |Identificador unico del producto ligado al inventario. |String  
+|Descripcion |Description |Descripcion del producto vendido. |String 
+|Cantidad |Quantity |Cantidad de unidades vendidas. |Int 
+|Fecha de la factura |Invoice Date |Fecha de la venta. |DateTime 
+|Precio por unidad |Unit Price | Precio de la unidad vendida. |Float 
+|Identificacion del cliente |Customer ID |Identificador unico de cliente. |BigInt
+|Pais |Country |Pais en el que se vendio el producto. |String
+
+<br> </br>
+*Tabla 2*. Diccionario de datos de la fuente carsWorldWide
+| Nombre | Nombre de columna | Definicion | Tipo de dato |
+|--------|-------------------|------------|--------------|
+|Numero de orden |Order Number |Identificador unico de la orden. |BigInt 
+|Cantidad ordenada |QuantityOrdered |Cantidad de unidades ordenadas. |Int  
+|Precio por unidad |PriceEach |Precio de la unidad ordenada. |Float 
+|Linea de orden |OrderLineNumber |Identificador unico de la linea de orden. |Int 
+|Venta |Sales |. |Float 
+|Fecha de orden |OrderDate |Fecha en la que se hizo la orden. |DateTime
+|Estado |Status |Estado de la orden. |String
+|Tipo unidad |MSRP |Tipo de unidad vendida. |String
+|Codigo Postal |PostalCode |Codigo postal de la zona donde se hizo la orden. |BigInt
+|Pais |Country |Pais donde se hizo la orden. |String
+|Territorio |Territory |Estado de la orden. |String
+|Apellido |ContactLastName |Estado de la orden. |String
+|Nombre |ContactFirstName |Estado de la orden. |String
+|Tamaño|DealSize |Tamaño de la orden. |String
 
 ## Los resultados
 Especificar los resultados del proyecto. ¿El enfoque tomado le dio solucion al problema? ¿Esta el proyecto terminado? ¿La solucion alcanzada tiene alguna mejora?
