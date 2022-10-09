@@ -24,13 +24,24 @@ Ademas, la compañia posee distintas fuentes de datos las cuales poseen formatos
 
 La compañia requiere de un tablero BI, el cual debera de permitir principalmente el analisis de las ventas a traves de los años. Dicho tablero debera de tener como minimo dos (2) secciones, una que permita el analisis de las ventas de su seccion de retail, la segunda debera de permitir el analisis de las ventas de su seccion de vehiculos.
 
-En ambas secciones se deberan de responder las siguientes preguntas:
-1. 
-2. 
-3. 
-4.  
+Ambas secciones deberan de responder las siguientes preguntas:
+1. ¿Cuanto dinero se ha generado?
+2. ¿Cuantas unidades se han vendido?
+3. ¿Se ha generado mas dinero con respecto al año pasado?
+4. ¿Se han vendido mas unidades con respecto al año pasado?
+5. ¿El tiempo de entrega de los productos (eficiencia) ha mejorado con respecto al del año pasado?
+6. ¿Cuanto dinero se ha generado a traves de los años, meses y dias?
+7. ¿Cuantas unidades han sido vendidas en los diferentes años, meses y dias?
+8. ¿En cual pais se han vendido mas unidades?
+9. ¿En que ciudad se han vendido mas unidades?
+10. ¿Que categoria es la mas comprada?
+11. ¿Cuanto tiempo tardamos en entregar dicha categoria?
+12. ¿Cual es el producto mas vendido?
+13. ¿Cuanto tiempo tardamos en entregar los productos?
 
+<br></br>
 Los lineamientos propuestos para la elaboracion de este proyecto se pueden encontrar en el siguiente enlace: [Lineamientos](https://github.com/spuerta10/projects/blob/main/stores_sales_bi/recursos/otros/guidelines.pdf)
+
 <br></br>
 
 ## La solucion
