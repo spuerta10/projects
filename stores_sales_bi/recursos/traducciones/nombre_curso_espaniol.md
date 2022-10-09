@@ -21,7 +21,16 @@ Ademas, la compañia posee distintas fuentes de datos las cuales poseen formatos
 
 *Figura 1*. Fuentes de datos que posee la compañia
 <br></br>
-Los lineamientos propuestos para la elaboracion de este proyecto se pueden encontrar en el siguiente enlace: []()
+
+La compañia requiere de un tablero BI, el cual debera de permitir principalmente el analisis de las ventas a traves de los años. Dicho tablero debera de tener como minimo dos (2) secciones, una que permita el analisis de las ventas de su seccion de retail, la segunda debera de permitir el analisis de las ventas de su seccion de vehiculos.
+
+En ambas secciones se deberan de responder las siguientes preguntas:
+1. 
+2. 
+3. 
+4.  
+
+Los lineamientos propuestos para la elaboracion de este proyecto se pueden encontrar en el siguiente enlace: [Lineamientos](https://github.com/spuerta10/projects/blob/main/stores_sales_bi/recursos/otros/guidelines.pdf)
 <br></br>
 
 ## La solucion
