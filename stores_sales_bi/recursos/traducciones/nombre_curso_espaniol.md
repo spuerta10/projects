@@ -117,6 +117,7 @@ Una vez comprendidos los datos deberemos de implementar un proceso de ETL (extra
 La siguiente figura expone la estructura que debera de ser seguida por los datos de salida del proceso de ETL.
 
 ![](https://github.com/spuerta10/projects/blob/main/stores_sales_bi/recursos/imagenes_y_videos/etl_databases/load_databases.png)
+
 *Figura 2*. Estructura de los datos de salida del proceso de ETL.
 
 <br></br>
