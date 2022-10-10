@@ -35,7 +35,7 @@ Ambas secciones deberan de responder las siguientes preguntas:
 8. ¿En cual pais se han vendido mas unidades?
 9. ¿En que ciudad se han vendido mas unidades?
 10. ¿Que categoria es la mas comprada?
-11. ¿Cuanto tiempo tardamos en entregar dicha categoria?
+11. ¿Cuanto tiempo estamos tardando en entregar las diferentes categorias?
 12. ¿Cual es el producto mas vendido?
 13. ¿Cuanto tiempo tardamos en entregar los productos?
 
@@ -112,8 +112,16 @@ Antes de pensar en una solucion particular para el problema debemos de entender 
 |Ventas |Sales |Valor total de la venta |Float    
 
 <br> </br>
-Hola que mas
+Una vez comprendidos los datos deberemos de implementar un proceso de ETL (extraccion, transformacion y carga) el cual, en primer lugar, extraiga los datos de las diferentes fuentes de datos existentes, transforme los datos a una estructura deseada y posteriormente los cargue a Power BI.
 
+La siguiente figura expone la estructura que debera de ser seguida por los datos de salida del proceso de ETL.
+
+![](https://github.com/spuerta10/projects/blob/main/stores_sales_bi/recursos/imagenes_y_videos/etl_databases/load_databases.png)
+*Figura 2*. Estructura de los datos de salida del proceso de ETL.
+
+<br></br>
+Se puede acceder al proceso de ETL implementado a traves del siguiente link: [etl.ipynb](https://github.com/spuerta10/projects/tree/main/stores_sales_bi/codigo)
+<br></br>
 
 ## Los resultados
 Especificar los resultados del proyecto. ¿El enfoque tomado le dio solucion al problema? ¿Esta el proyecto terminado? ¿La solucion alcanzada tiene alguna mejora?
