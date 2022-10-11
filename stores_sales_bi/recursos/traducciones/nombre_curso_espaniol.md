@@ -126,14 +126,17 @@ Se puede acceder al proceso de ETL implementado a traves del siguiente enlace: [
 
 Con los datos "limpios" y siguiendo la estructura definida procederemos a cargarlos en Power BI.
 
-Para que las tablas resultantes puedan ser filtradas segun filtros especificos se debera de recurrir a un modelado multidimensional, en el cual los filtros seran las dimensiones y las tablas, que seran filtradas por las dimensiones, seran las tablas de hechos. 
+Para que las tablas resultantes puedan ser filtradas segun filtros especificos se debera de recurrir a un modelado multidimensional, en el cual los filtros seran las dimensiones, y, las tablas, que seran filtradas por las dimensiones, seran las tablas de hechos. 
 
 La figura tres (3) expone el modelo multidimensinal del tablero.
 
 ![](https://github.com/spuerta10/projects/blob/main/stores_sales_bi/recursos/imagenes_y_videos/multidimensional_model.png)
 
-*Figura 3*. Modelo multidimensional del tablero BI
+*Figura 3*. Modelo multidimensional del tablero BI.
 
+Luego de creado e implemetado el modelo multidimensional construiremos las visualizaciones del BI teniendo en cuenta el responder las preguntas planteadas por medio de los objetos visuales.
+<br></br>
+Se puede acceder al tablero desarrollado a traves del siguiente enlace: [Company Sales](https://app.powerbi.com/view?r=eyJrIjoiMjdhNWU3YmQtYjA0ZS00NGRiLWIzNDMtNmMxMmU1ZTM4MzJhIiwidCI6IjYxOGJhYjBmLTIwYTQtNGRlMy1hMTBjLWUyMGNlZTk2YmIzNSIsImMiOjR9)
 <br></br>
 
 ## Los resultados
