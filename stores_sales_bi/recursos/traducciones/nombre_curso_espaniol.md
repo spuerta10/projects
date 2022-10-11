@@ -130,7 +130,7 @@ Para que las tablas resultantes puedan ser filtradas segun filtros especificos s
 
 La figura tres (3) expone el modelo multidimensinal del tablero.
 
-![]()
+![](https://github.com/spuerta10/projects/blob/main/stores_sales_bi/recursos/imagenes_y_videos/multidimensional_model.png)
 
 *Figura 3*. Modelo multidimensional del tablero BI
 
