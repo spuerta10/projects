@@ -121,7 +121,19 @@ La siguiente figura expone la estructura que debera de ser seguida por los datos
 *Figura 2*. Estructura de los datos de salida del proceso de ETL.
 
 <br></br>
-Se puede acceder al proceso de ETL implementado a traves del siguiente link: [etl.ipynb](https://github.com/spuerta10/projects/tree/main/stores_sales_bi/codigo)
+Se puede acceder al proceso de ETL implementado a traves del siguiente enlace: [etl.ipynb](https://github.com/spuerta10/projects/blob/main/stores_sales_bi/codigo/etl.ipynb)
+<br></br>
+
+Con los datos "limpios" y siguiendo la estructura definida procederemos a cargarlos en Power BI.
+
+Para que las tablas resultantes puedan ser filtradas segun filtros especificos se debera de recurrir a un modelado multidimensional, en el cual los filtros seran las dimensiones y las tablas, que seran filtradas por las dimensiones, seran las tablas de hechos. 
+
+La figura tres (3) expone el modelo multidimensinal del tablero.
+
+![]()
+
+*Figura 3*. Modelo multidimensional del tablero BI
+
 <br></br>
 
 ## Los resultados
