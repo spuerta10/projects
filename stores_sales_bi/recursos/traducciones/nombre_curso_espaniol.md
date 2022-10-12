@@ -134,7 +134,8 @@ La figura tres (3) expone el modelo multidimensinal del tablero.
 
 *Figura 3*. Modelo multidimensional del tablero BI.
 
-Luego de creado e implemetado el modelo multidimensional construiremos las visualizaciones del BI teniendo en cuenta el responder las preguntas planteadas por medio de los objetos visuales.
+Luego de creado e implemetado el modelo multidimensional construiremos las visualizaciones del BI teniendo en cuenta responder las preguntas planteadas por medio de los objetos visuales.
+
 <br></br>
 Se puede acceder al tablero desarrollado a traves del siguiente enlace: [Company Sales](https://app.powerbi.com/view?r=eyJrIjoiMjdhNWU3YmQtYjA0ZS00NGRiLWIzNDMtNmMxMmU1ZTM4MzJhIiwidCI6IjYxOGJhYjBmLTIwYTQtNGRlMy1hMTBjLWUyMGNlZTk2YmIzNSIsImMiOjR9)
 <br></br>
