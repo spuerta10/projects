@@ -137,6 +137,9 @@ La figura tres (3) expone el modelo multidimensinal del tablero.
 Luego de creado e implemetado el modelo multidimensional construiremos las visualizaciones del BI teniendo en cuenta responder las preguntas planteadas por medio de los objetos visuales.
 
 <br></br>
+La presentacion elaborada para explicar el proceso llevado a cabo para realizar este proyecto puede ser accedida por medio del siguiente enlace: [Stores Sales BI Presentation](https://github.com/spuerta10/projects/blob/main/stores_sales_bi/recursos/otros/Stores%20sales%20BI.pdf)
+
+<br></br>
 Se puede acceder al tablero desarrollado a traves del siguiente enlace: [Company Sales](https://app.powerbi.com/view?r=eyJrIjoiMjdhNWU3YmQtYjA0ZS00NGRiLWIzNDMtNmMxMmU1ZTM4MzJhIiwidCI6IjYxOGJhYjBmLTIwYTQtNGRlMy1hMTBjLWUyMGNlZTk2YmIzNSIsImMiOjR9)
 <br></br>
 
