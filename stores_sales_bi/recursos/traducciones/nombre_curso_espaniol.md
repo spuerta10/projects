@@ -137,13 +137,15 @@ La figura tres (3) expone el modelo multidimensinal del tablero.
 Luego de creado e implemetado el modelo multidimensional construiremos las visualizaciones del BI teniendo en cuenta responder las preguntas planteadas por medio de los objetos visuales.
 
 <br></br>
-La presentacion elaborada para explicar el proceso llevado a cabo para realizar este proyecto puede ser accedida por medio del siguiente enlace: [Stores Sales BI Presentation](https://github.com/spuerta10/projects/blob/main/stores_sales_bi/recursos/otros/Stores%20sales%20BI.pdf)
+La presentacion elaborada para explicar el proceso llevado a cabo para realizar este proyecto, puede ser accedida por medio del siguiente enlace: [Stores Sales BI Presentation](https://github.com/spuerta10/projects/blob/main/stores_sales_bi/recursos/otros/Stores%20sales%20BI.pdf)
 
 <br></br>
 Se puede acceder al tablero desarrollado a traves del siguiente enlace: [Company Sales](https://app.powerbi.com/view?r=eyJrIjoiMjdhNWU3YmQtYjA0ZS00NGRiLWIzNDMtNmMxMmU1ZTM4MzJhIiwidCI6IjYxOGJhYjBmLTIwYTQtNGRlMy1hMTBjLWUyMGNlZTk2YmIzNSIsImMiOjR9)
 <br></br>
 
 ## Los resultados
-Especificar los resultados del proyecto. ¿El enfoque tomado le dio solucion al problema? ¿Esta el proyecto terminado? ¿La solucion alcanzada tiene alguna mejora?
+El proyecto concluye contestando a las preguntas uno (1) a trece (13). 
+
+Cabe recalcar que el mismo podria tener dos (2) mejoras sustanciales: principalmente se podria agregar una nueva pagina, esta cumpliria la funcion de dar una vista global de las ventas, al mostrar en conjunto tanto las ventas de retail como las de carros en los diferentes paises y ciudades presentes en los datos. Seguidamente se podrian calcular los minimos dado el contexto de filtro, para que asi, los velocimetros muestren los minimos registrados dada una fecha de filtro; cabe aclara que en el momento los velocimetros muestran los minimos historicos presentes en la base de datos.   
 <br></br>
 
