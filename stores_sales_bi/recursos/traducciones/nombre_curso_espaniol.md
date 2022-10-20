@@ -128,7 +128,7 @@ Con los datos "limpios" y siguiendo la estructura definida procederemos a cargar
 
 Para que las tablas resultantes puedan ser filtradas segun filtros especificos se debera de recurrir a un modelado multidimensional, en el cual los filtros seran las dimensiones, y, las tablas, que seran filtradas por las dimensiones, seran las tablas de hechos. 
 
-La figura tres (3) expone el modelo multidimensinal del tablero.
+La figura tres (3) expone el modelo multidimensional del tablero.
 
 ![](https://github.com/spuerta10/projects/blob/main/stores_sales_bi/recursos/imagenes_y_videos/multidimensional_model.png)
 
