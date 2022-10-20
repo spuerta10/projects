@@ -146,6 +146,6 @@ Se puede acceder al tablero desarrollado a traves del siguiente enlace: [Company
 ## Los resultados
 El proyecto concluye contestando a las preguntas uno (1) a trece (13). 
 
-Cabe recalcar que el mismo podria tener dos (2) mejoras sustanciales: principalmente se podria agregar una nueva pagina, esta cumpliria la funcion de dar una vista global de las ventas, al mostrar en conjunto tanto las ventas de retail como las de carros en los diferentes paises y ciudades presentes en los datos. Seguidamente se podrian calcular los minimos dado el contexto de filtro, para que asi, los velocimetros muestren los minimos registrados dada una fecha de filtro; cabe aclara que en el momento los velocimetros muestran los minimos historicos presentes en la base de datos.   
+Cabe recalcar que el mismo podria tener dos (2) mejoras sustanciales: principalmente se podria agregar una nueva pagina, esta cumpliria la funcion de dar una vista global de las ventas, al mostrar en conjunto tanto las ventas de retail como las de carros en los diferentes paises y ciudades presentes en los datos. Seguidamente se podrian calcular los minimos dado el contexto de filtro, para que asi, los velocimetros muestren los minimos registrados dada una fecha de filtro; cabe aclarar que en el momento los velocimetros muestran los minimos historicos presentes en la base de datos.   
 <br></br>
 
